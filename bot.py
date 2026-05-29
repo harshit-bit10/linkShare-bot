@@ -1,6 +1,6 @@
 # ╔══════════════════════════════════════════════╗
-# ║         BotifyX_Pro_Botz — Linkshare Bot     ║
-# ║   Telegram: https://t.me/BotifyX_Pro_Botz    ║
+# ║         SharkToonsIndia — Linkshare Bot     ║
+# ║   Telegram: https://t.me/SharkToonsIndia   ║
 # ╚══════════════════════════════════════════════╝
 
 import asyncio
