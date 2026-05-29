@@ -14,7 +14,7 @@ from config import API_HASH, APP_ID, LOGGER, TG_BOT_TOKEN, TG_BOT_WORKERS, PORT,
 from plugins import web_server
 import pyrogram.utils
 
-pyrogram.utils.MIN_CHANNEL_ID = -1009147483647
+pyrogram.utils.MIN_CHANNEL_ID = -1002075434712
 
 # Global broadcast cancel controls
 is_canceled = False
@@ -24,7 +24,7 @@ cancel_lock = asyncio.Lock()
 class Bot(Client):
     def __init__(self):
         super().__init__(
-            name="BOTIFYX-LINKSHARE",
+            name="SHARKTOONSINDIA-LINKSHARE",
             api_hash=API_HASH,
             api_id=APP_ID,
             plugins={"root": "plugins"},
