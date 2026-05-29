@@ -10,17 +10,17 @@ from logging.handlers import RotatingFileHandler
 from os import environ
 
 # ── Required ──────────────────────────────────────────────────────────────────
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8717327179:AAE7Y6JR7lS5eYt3J6rQEz0lN1GGajDRVFc")
 APP_ID       = int(os.environ.get("APP_ID", ""))
 API_HASH     = os.environ.get("API_HASH", "")
 
 # ── Ownership ─────────────────────────────────────────────────────────────────
-OWNER_ID = int(os.environ.get("OWNER_ID", "7156099919"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6066102279"))
 PORT     = os.environ.get("PORT", "8080")
 
 # ── Database ──────────────────────────────────────────────────────────────────
 DB_URI  = os.environ.get("DB_URI", "")
-DB_NAME = os.environ.get("DB_NAME", "botifyx-linkshare")
+DB_NAME = os.environ.get("DB_NAME", "SharkToonsIndia-linkshare")
 
 # ── Database channel (where /genlink stores links) ────────────────────────────
 DATABASE_CHANNEL = int(os.environ.get("DATABASE_CHANNEL", ""))
